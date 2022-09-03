@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css?family=Sofia&effect=fire");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+}
+
+body {
+  font-family: "Sofia", sans-serif;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-weight: 400;
+  margin: 2rem 8rem;
+}
+
+.list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.list-item {
+  list-style: none;
+  margin: 0 1rem;
+  cursor: pointer;
+}
+
+.list-item:nth-child(1) {
+  text-decoration: underline;
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+.button-group {
+  display: flex;
+}
+
+.search-icon {
+  width: 800%;
+  height: 10px;
+  margin-right: 10px;
+  margin-top: 5px;
+}
+
+.nav-button {
+  border-radius: 8px;
+  border: none;
+  border: 3px solid black;
+  padding: 3px 25px;
+  background: transparent;
+  font-size: 20px;
+}
+
+.hero-container {
+  display: flex;
+  position: relative;
+  gap: 5rem;
+  margin: 5rem 7rem 2rem 8rem;
+}
+
+span.square img {
+  position: absolute;
+  left: 6rem;
+  top: 7rem;
+  height: 70%;
+}
+
+.hero-img {
+  position: relative;
+  width: 120%;
+  left: 20px;
+  height: 150%;
+  bottom: 2rem;
+}
+
+.globe,
+.star {
+  position: absolute;
+}
+
+.globe {
+  bottom: 21rem;
+  left: 49rem;
+  top: -60px;
+}
+
+.star {
+  bottom: 20rem;
+  left: 70rem;
+  top: -27px;
+}
+
+.hero-container-right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-heading {
+  font-weight: 700;
+  font-size: 3.2rem;
+  margin: 3rem 2rem;
+}
+
+.hero-description {
+  position: relative;
+  margin-bottom: -10px;
+  text-align: center;
+  left: 5rem;
+  right: 5rem;
+}
+
+.button {
+  margin-top: 4rem;
+}
+
+.button-email {
+  border: 1px solid black;
+  background: transparent;
+  border-radius: 4px;
+  padding: 5px 15px;
+  margin-right: 5px;
+  cursor: pointer;
+  font-size: 1.1rem;
+}
+
+.button-join {
+  border: 1px solid black;
+  border-radius: 4px;
+  padding: 8px 15px;
+  background-color: black;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.contact-heading {
+  margin-top: 8rem;
+  padding-bottom: 1.4rem;
+  text-align: center;
+  font-size: 1.1rem;
+}
+
+.icons span {
+  margin-left: 10px;
+}
